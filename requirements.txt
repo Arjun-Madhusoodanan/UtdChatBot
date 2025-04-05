@@ -60,3 +60,9 @@ urllib3==2.3.0
 wheel==0.45.1
 yarl==1.18.3
 zstandard==0.23.0
+beautifulsoup4==4.13.2
+selenium==4.14.0
+webdriver-manager==3.8.6
+playwright
+lxml==5.3.1
+scrapy

@@ -7,7 +7,6 @@ import time
 import logging
 import re
 
-# Configure logging
 logging.basicConfig(
     filename='scraping_errors.log',
     level=logging.INFO,
@@ -39,8 +38,8 @@ class JindalScraper:
         self.scraped_data = []
         self.queue = []
         self.file_extensions = {'.pdf', '.jpg', '.png', '.docx', '.xlsx'}
-        self.delay = 2  # Seconds between requests
-        self.max_pages = 10000  # Safety limit
+        self.delay = 2  
+        self.max_pages = 10000  
 
     def normalize_url(self, url):
         """Strong URL normalization with case insensitivity"""

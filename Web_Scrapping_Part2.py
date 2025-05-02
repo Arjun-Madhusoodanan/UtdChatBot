@@ -42,7 +42,7 @@ class UTDScraper:
         self.scraped_data = []
         self.queue = []
         self.file_extensions = {'.pdf', '.jpg', '.png', '.docx', '.xlsx'}
-        self.delay = 30 
+        self.delay = 2 
         self.max_pages = 10
 
     def normalize_url(self, url):
